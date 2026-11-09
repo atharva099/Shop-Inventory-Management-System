@@ -1,0 +1,138 @@
+body {
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #1e3a5f;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.management-section {
+    background-color: white;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.management-section h2 {
+    color: #1e3a5f;
+    margin-top: 0;
+}
+
+.management-section form {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.management-section label {
+    font-weight: 500;
+    color: #333;
+}
+
+.management-section input,
+.management-section select {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+.management-section input:focus,
+.management-section select:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+.management-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.management-section th {
+    background-color: #1e3a5f;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.management-section td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+.management-section tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+.management-section tr:hover {
+    background-color: #eef2f7;
+}
+
+.management-section button {
+    padding: 9px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 6px;
+}
+
+.management-section form button {
+    background-color: #2563eb;
+    color: white;
+}
+
+.management-section form button:hover {
+    background-color: #1d4ed8;
+}
+
+.management-section table button:first-child {
+    background-color: #f59e0b;
+    color: white;
+}
+
+.management-section table button:last-child {
+    background-color: #dc2626;
+    color: white;
+}
+
+.management-section table button:hover {
+    opacity: 0.85;
+}
+
+.management-section form label {
+    display: inline-block;
+    width: 120px;
+}
+
+.management-section form input,
+.management-section form select {
+    vertical-align: middle;
+}
+
+.management-section form button {
+    margin-top: 10px;
+}
+
+#root {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.management-section {
+    margin-bottom: 25px;
+}
